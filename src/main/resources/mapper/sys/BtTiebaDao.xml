@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.nodules.dao.BtTiebaDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.BtTiebaEntity" id="btTiebaMap">
+        <result property="tiebaId" column="tieba_id"/>
+        <result property="tiebaTitle" column="tieba_title"/>
+        <result property="tiebaUserId" column="tieba_user_id"/>
+        <result property="tiebaUserName" column="tieba_user_name"/>
+        <result property="tiebaDesc" column="tieba_desc"/>
+        <result property="tiebaImageId" column="tieba_image_id"/>
+        <result property="tiebaLike" column="tieba_like"/>
+        <result property="tiebaKey" column="tieba_key"/>
+        <result property="tiebaPrice" column="tieba_price"/>
+        <result property="tiebaHeat" column="tieba_heat"/>
+        <result property="tiebaCreateTime" column="tieba_create_time"/>
+        <result property="tiebaStatus" column="tieba_status"/>
+    </resultMap>
+
+
+</mapper>

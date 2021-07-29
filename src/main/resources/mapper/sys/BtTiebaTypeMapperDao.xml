@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.nodules.dao.BtTiebaTypeMapperDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.BtTiebaTypeMapperEntity" id="btTiebaTypeMapperMap">
+        <result property="mapperId" column="mapper_id"/>
+        <result property="tiebaId" column="tieba_id"/>
+        <result property="typeId" column="type_id"/>
+    </resultMap>
+
+
+</mapper>

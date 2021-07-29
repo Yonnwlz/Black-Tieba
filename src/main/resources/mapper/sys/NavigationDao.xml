@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.nodules.dao.NavigationDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.NavigationEntity" id="navigationMap">
+        <result property="naviId" column="navi_id"/>
+        <result property="naviParentId" column="navi_parent_id"/>
+        <result property="naviName" column="navi_name"/>
+        <result property="naviUrl" column="navi_url"/>
+        <result property="naviSort" column="navi_sort"/>
+    </resultMap>
+
+
+</mapper>

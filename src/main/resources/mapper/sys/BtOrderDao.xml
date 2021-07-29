@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.nodules.dao.BtOrderDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.BtOrderEntity" id="btOrderMap">
+        <result property="orderOnly" column="order_only"/>
+        <result property="orderUserId" column="order_user_id"/>
+        <result property="orderUserName" column="order_user_name"/>
+        <result property="orderTiebaId" column="order_tieba_id"/>
+        <result property="orderTiebaTitle" column="order_tieba_title"/>
+        <result property="orderCurrencyNumber" column="order_currency_number"/>
+        <result property="orderCreateTime" column="order_create_time"/>
+        <result property="orderStatus" column="order_status"/>
+    </resultMap>
+
+
+</mapper>

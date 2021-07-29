@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.nodules.dao.BtTiebaImageDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.BtTiebaImageEntity" id="btTiebaImageMap">
+        <result property="imageId" column="image_id"/>
+        <result property="imageUrl" column="image_url"/>
+        <result property="imageStatus" column="image_status"/>
+        <result property="imageSort" column="image_sort"/>
+    </resultMap>
+
+
+</mapper>
